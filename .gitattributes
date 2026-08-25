@@ -1,0 +1,5 @@
+# Shell scripts and the Dockerfile run on Linux, so keep LF endings so they
+# never get CRLF-mangled on a Windows checkout (which would break the shebang).
+*.sh        text eol=lf
+Dockerfile  text eol=lf
+*.js        text eol=lf

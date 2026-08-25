@@ -1,0 +1,9 @@
+{
+  "name": "example-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tiny static site to demo deploy-kit (stands in for a real build tool)",
+  "scripts": {
+    "build": "rm -rf build && mkdir build && cp -r public/. build/"
+  }
+}

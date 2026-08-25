@@ -1,0 +1,13 @@
+# real config with actual hosts/paths — never commit
+config/deploy.config.sh
+
+# build noise
+node_modules/
+build/
+dist/
+*.tar.gz
+COMMIT
+.env
+.env.*
+!.env.example
+.DS_Store
